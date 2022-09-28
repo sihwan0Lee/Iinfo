@@ -1,0 +1,21 @@
+{
+    "name": "instagram/private",
+    "description": "Herren Insta Api Client",
+    "authors": [
+      {
+        "name": "lmc",
+        "role": "developer"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://composer.snshelper.co.kr"
+      }
+    ],
+    "require": {
+      "instagram-private/instagram": "*",
+      "paragonie/sodium_compat": "^1.16"
+    }
+  }
+  
