@@ -35,7 +35,7 @@ try:
     print("try login")
     message = check_output(
         f"php webLogin.php {proxy_ip} {username} {password}", shell = True, timeout = 600, universal_newlines = True)
-    
+    print(message)
 except KeyboardInterrupt:
     print("error")
 except:

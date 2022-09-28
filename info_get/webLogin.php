@@ -11,9 +11,9 @@ $password = $argv[3];
 $debug = false;			//false;
 $truncatedDebug = false; 
 //debug
-echo '|$proxy ip=' . $proxy_ip;
-echo '$username=' . $username;
-echo '|$password=' . $password;
+//echo '|$proxy ip=' . $proxy_ip;
+//echo '$username=' . $username;
+//echo '|$password=' . $password;
 
 $ig = new \InstagramAPI\Instagram($debug, $truncatedDebug);
 try {
